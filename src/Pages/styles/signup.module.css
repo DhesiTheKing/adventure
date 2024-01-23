@@ -1,0 +1,97 @@
+.index{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(./vid/bcsignup.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+.Formbox{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.498);
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    box-shadow:0 0 30px rgb(0,0,0,0.5) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Formbox .formbox{
+    width: 100%;
+    padding: 40px;
+  }
+  .formbox h1{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+  
+  }
+  .inputbox{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin: 30px 0;
+    font-family:sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+  }
+  .inputbox label{
+    position: absolute;
+    top:50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 0.8em;
+    color: #ffffff;
+    font-family:sans-serif;
+    font-weight: 800;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  .inputbox input:focus~label,
+  .inputbox input:valid~label{
+    top: -5px;
+    font-size: small;
+  }
+  .inputbox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+  }
+  .enter{
+    width: 100%;
+    height: 45px;
+    color: #000000;
+    background: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 800;
+    
+  }
+p{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 50px;
+}
+a{
+  color: rgb(252, 179, 179);
+  text-decoration: none;
+  margin: 5px;
+}

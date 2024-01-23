@@ -1,0 +1,24 @@
+
+.homepage{
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+    align-items:center;
+    overflow: hidden;
+    position:fixed;
+    border: none;
+    background: rgb(0, 0, 0);
+    height: 70px;
+    top: 0;
+
+}
+.homepage .bu1{
+    color: white;
+    font-size: 25px;
+
+}
+.homepage .bu1:hover{
+color: rgb(255, 60, 0);
+    
+}

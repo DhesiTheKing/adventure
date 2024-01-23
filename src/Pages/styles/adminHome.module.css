@@ -1,0 +1,182 @@
+.adminPage{
+    background: url(./vid/adminbc.jpg) no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.adminButton{
+    width: auto;
+    background: transparent;
+    position: absolute;
+    z-index: 11;
+    left: 20px;
+    margin-right: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    top: -5px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.addPlaces{
+    width: auto;
+    background: transparent;
+    position: absolute;
+    z-index: 11;
+    left: 200px;
+    margin-right: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    top: -5px;
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.addBox{
+    position: absolute;
+    top: 10px;
+    left: -150px;
+    width: 1300px;
+    height: 700px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.498);
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    box-shadow:0 0 30px rgb(0,0,0,0.5) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formbox{
+    position: inherit;
+    width: auto;
+    height: 650px;
+    top: 20px;
+    left: 30px;
+  }
+.inputbox{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin: 30px 0;
+    font-family:sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+  }
+  .inputbox label{
+    position: absolute;
+    top:20px;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 0.8em;
+    color: #000000;
+    font-family:sans-serif;
+    font-weight: 800;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  .inputbox input:focus~label,
+  .inputbox input:valid~label{
+    top: -5px;
+    font-size: small;
+  }
+  .inputbox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #000000;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+  }
+  
+  .inputbox textarea{
+    margin-top: 50px;
+    resize: none;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #000000;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+  }
+  .enter{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: 45px;
+    color: #000000;
+    background: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 800;
+    
+  }
+.updatePlaces{
+    width: auto;
+    background: transparent;
+    position: absolute;
+    z-index: 11;
+    left: 500px;
+    margin-right: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    top: -5px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.updateBox{
+    position: absolute;
+    top: 10px;
+    left: -450px;
+    width: 1300px;
+    height: 700px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.498);
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    box-shadow:0 0 30px rgb(0,0,0,0.5) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deletePlaces{
+    width: auto;
+    background: transparent;
+    position: absolute;
+    z-index: 11;
+    left: 850px;
+    margin-right: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    top: -5px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.deleteBox{
+    position: absolute;
+    top: 10px;
+    left: -800px;
+    width: 1300px;
+    height: 700px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.498);
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    box-shadow:0 0 30px rgb(0,0,0,0.5) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

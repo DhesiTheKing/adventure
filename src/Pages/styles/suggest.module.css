@@ -1,0 +1,90 @@
+.suggest{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: url(./vid/bcsuggest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.suggestData{
+    position: absolute;
+    top: 100px;
+    background: rgba(255, 255, 255, 0.267);
+    box-shadow: 5px 5px 25px 5px black;
+    backdrop-filter: blur(20px);
+    height: 80vh;
+    width: 55vw;
+    border-radius: 12px;
+}
+.suggestData label{
+    margin-left: 50px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 20px;
+
+
+}
+.suggestData textarea{
+    height: 250px;
+    width: 700px;
+    margin-top: -30px;
+    background: #ffffffc4;
+    margin-left: 50px;
+    margin-top: 25px;
+    font-size: 20px;
+    resize: none;
+    
+}
+.suggestData select{
+    margin-top: 20px;
+    height: 30px;
+    margin-left: 160px;
+}
+.suggestData input{
+    font-size: 20px;
+    margin-top: 55px;
+    margin-left: 50px;
+    &:nth-child(2){
+        border-bottom: 2px solid black;
+        width: auto;
+    }
+    &:nth-child(5){
+        border-bottom: 2px solid black;
+        width: auto;
+        padding-bottom: 5px;
+
+    }
+    &:nth-child(11){
+        border-bottom: 2px solid black;
+        width: auto;
+        padding-bottom: 5px;
+    }
+    &:nth-child(14){
+        margin-top: 20px;
+        margin-left: 225px;
+        width: auto;
+        padding-bottom: 5px;
+    }
+
+}
+.suggestData button{
+    position: absolute;
+    width: auto;
+    right: 100px;
+    bottom: 20px;
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+}
+.suggestData button:hover{
+    color: white;
+    background: #0000007a;
+    border: 2px solid white;
+}

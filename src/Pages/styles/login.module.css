@@ -1,0 +1,76 @@
+.main{
+    background: url(./vid/bclogin.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.page{
+    position:absolute;
+    width: 400px;
+    height: 300px;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.498);
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    box-shadow:0 0 30px rgb(0,0,0,0.5) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AdvId{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin: 30px 0;
+    font-family:sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #000000;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+
+}
+button{
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    color: white;
+    background: rgb(0, 0, 0);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 800;
+}
+.AdvId label{
+    position: absolute;
+    top:50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 0.8em;
+    color: #000000;
+    font-family:sans-serif;
+    font-weight: 800;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  .AdvId input:focus~label,
+  .AdvId input:valid~label{
+    top: -5px;
+    font-size: small;
+  }

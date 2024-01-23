@@ -1,0 +1,269 @@
+
+.normal{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: auto;
+    background: url(./vid/bcnormal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position-y: -100px;
+}
+
+.bctitle h1{
+    position: absolute;
+    font-weight: 900;
+    font-size: 180px;
+    right: 400px;
+    top: -130px;
+    background: -webkit-linear-gradient(rgb(2, 66, 42),rgb(6, 90, 51),rgba(0, 68, 34, 0.048),rgba(2, 66, 43, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: fromtop;
+    animation-duration: 2s;
+}
+@keyframes fromtop{
+    from{transform: translateY(-100%);}
+}
+.search{
+    right: 500px;
+    position: absolute;
+    top:255px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.search input{
+    color: white;
+    border-radius: 12px;
+    background: #0000005d;
+    width: 500px;
+    height: 50px;
+}
+.search button{
+    position: absolute;
+    top: -7px;
+    right: 10px;
+    color: rgb(255, 255, 255);
+    height: 55px;
+    width: auto;
+    background: none;
+}
+
+
+.place1{
+    position: absolute;
+    top: 70vh;
+    height: 100vh;
+    width: 100%;
+    background:rgba(134, 129, 129, 0.247);
+}
+
+.place1 img{
+    padding-top: 100px;
+    padding-left: 30px;
+    height: 700px;
+    width: 750px;
+    -webkit-mask-image: url(./vid/mountain_mask.png);
+    mask-image: url(./vid/mountain_mask.png);
+    mask-position: center ;
+    -webkit-mask-position-x: 30px;
+    -webkit-mask-position-y: 100px;
+    mask-size: 700px 700px;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+
+}
+.place1 h1{
+    position: absolute;
+   top: 10px;
+   right: 35px;
+   font-weight: 800;
+   font-size: 100px;
+   text-shadow: 7px 5px 2px rgba(22, 22, 22, 0.568);
+}
+.place1 p{
+    font-size: 22px;
+    font-weight: 400;
+    position: absolute;
+    color: black;
+    right: 35px;
+    inline-size: 800px;
+    &:nth-child(3){
+        top: 220px;
+    }
+    &:nth-child(4){
+        top: 400px;
+    }
+    &:nth-child(5){
+        top:510px
+    }
+}
+.place2{
+    position: absolute;
+    top: 170vh;
+    height: 100vh;
+    width: 100%;
+    background:rgb(17, 16, 16);
+}
+.place2 img{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    height: 700px;
+    width: 750px;
+    -webkit-mask-image: url(./vid/mountain_mask.png);
+    mask-image: url(./vid/mountain_mask.png);
+    mask-position: center ;
+    -webkit-mask-position-x: 20px;
+    -webkit-mask-position-y: 0px;
+    mask-size: 750px 650px;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+
+}
+.place2 h1{
+    color: white;
+    position: absolute;
+   top: -30px;
+   left: 205px;
+   font-weight: 800;
+   font-size: 125px;
+   text-shadow: 7px 5px 2px rgba(255, 255, 255, 0.568);
+}
+.place2 p{
+    font-size: 22px;
+    font-weight: 400;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 35px;
+    inline-size: 780px;
+    &:nth-child(3){
+        top: 250px;
+    }
+    &:nth-child(4){
+        top: 420px;
+    }
+    &:nth-child(5){
+        top:530px;
+    }
+}
+.place3{
+    position: absolute;
+    top: 270vh;
+    height: 100vh;
+    width: 100%;
+    background:rgba(134, 129, 129, 0.247);
+}
+
+.place3 img{
+    padding-top: 50px;
+    height: 650px;
+    width: 790px;
+    -webkit-mask-image: url(./vid/mountain_mask.png);
+    mask-image: url(./vid/mountain_mask.png);
+    mask-position: center ;
+    -webkit-mask-position-x: 30px;
+    -webkit-mask-position-y: 50px;
+    mask-size: 750px 650px;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+
+}
+.place3 h1{
+    position: absolute;
+   top: 10px;
+   right: 55px;
+   font-weight: 800;
+   font-size: 100px;
+   text-shadow: 7px 5px 2px rgba(22, 22, 22, 0.568);
+}
+.place3 p{
+    font-size: 22px;
+    font-weight: 400;
+    position: absolute;
+    color: black;
+    right: 35px;
+    inline-size: 780px;
+    &:nth-child(3){
+        top: 250px;
+    }
+    &:nth-child(4){
+        top: 460px;
+    }
+    &:nth-child(5){
+        top:600px;
+    }
+}
+.place4{
+    position: absolute;
+    top: 370vh;
+    height: 100vh;
+    width: 100%;
+    background:rgb(0, 0, 0);
+}
+.place4 img{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    height: 700px;
+    width: 750px;
+    -webkit-mask-image: url(./vid/mountain_mask.png);
+    mask-image: url(./vid/mountain_mask.png);
+    mask-position: center ;
+    -webkit-mask-position-x: 20px;
+    -webkit-mask-position-y: 0px;
+    mask-size: 750px 650px;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+
+}
+.place4 h1{
+    color: white;
+    position: absolute;
+   top: -30px;
+   left: 0px;
+   font-weight: 800;
+   font-size: 115px;
+   text-shadow: 7px 5px 2px rgba(255, 255, 255, 0.568);
+}
+.place4 p{
+    font-size: 22px;
+    font-weight: 400;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 35px;
+    inline-size: 780px;
+    &:nth-child(3){
+        top: 230px;
+    }
+    &:nth-child(4){
+        top: 450px;
+    }
+
+}
+.about{
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+    background:rgb(73, 70, 70);
+    height: 15vh;
+    width: 100%;
+    top: 470vh;
+}
+.about h1{
+    position: absolute;
+    color: white;
+    left: 700px;
+}
+.about p{
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    inline-size: 1250px;
+}

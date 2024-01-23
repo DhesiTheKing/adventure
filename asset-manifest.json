@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/adventure/static/css/main.7d3f8ec0.css",
+    "main.js": "/adventure/static/js/main.ac877d1d.js",
+    "static/js/787.18885580.chunk.js": "/adventure/static/js/787.18885580.chunk.js",
+    "static/media/normal_place_4.jpg": "/adventure/static/media/normal_place_4.3304d57cbe3f5cc96ee3.jpg",
+    "static/media/normal_place_2.jpg": "/adventure/static/media/normal_place_2.530f331729a13071fb37.jpg",
+    "static/media/mountain_mask.png": "/adventure/static/media/mountain_mask.298b5df32c20cc99615f.png",
+    "static/media/bclogin.jpg": "/adventure/static/media/bclogin.45208da28a269c76fe00.jpg",
+    "static/media/bcsuggest.jpg": "/adventure/static/media/bcsuggest.8dc2504bf78ceead7dec.jpg",
+    "static/media/haunted_mask.png": "/adventure/static/media/haunted_mask.1f289f02f2917a24d9db.png",
+    "static/media/bcsignup.jpg": "/adventure/static/media/bcsignup.01d7163807128b9d0653.jpg",
+    "static/media/normal_place_3.jpg": "/adventure/static/media/normal_place_3.1a7c342b6f2cb033de63.jpg",
+    "static/media/haunted_place_1.jpg": "/adventure/static/media/haunted_place_1.edb67822eaef708ce650.jpg",
+    "static/media/bchorrer.jpg": "/adventure/static/media/bchorrer.93c4e5ce42b727c250ee.jpg",
+    "static/media/bcnormal.jpg": "/adventure/static/media/bcnormal.73683196975a9814865a.jpg",
+    "static/media/normal_place_1.jpg": "/adventure/static/media/normal_place_1.d7a1e2e0d30036fdc1e8.jpg",
+    "static/media/adminbc.jpg": "/adventure/static/media/adminbc.1f493b0014a4ac3a7e50.jpg",
+    "static/media/haunted_place_3.jpg": "/adventure/static/media/haunted_place_3.734a2a741ae3a14751a0.jpg",
+    "static/media/bcindex.jpg": "/adventure/static/media/bcindex.d46c08af66b68da4253b.jpg",
+    "static/media/haunted_place_2.jpg": "/adventure/static/media/haunted_place_2.998d7ff7e569c163d293.jpg",
+    "index.html": "/adventure/index.html",
+    "main.7d3f8ec0.css.map": "/adventure/static/css/main.7d3f8ec0.css.map",
+    "main.ac877d1d.js.map": "/adventure/static/js/main.ac877d1d.js.map",
+    "787.18885580.chunk.js.map": "/adventure/static/js/787.18885580.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d3f8ec0.css",
+    "static/js/main.ac877d1d.js"
+  ]
+}
